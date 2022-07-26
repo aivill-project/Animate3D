@@ -1,4 +1,9 @@
 # Human Motion Understanding with Deep Learning
+
+* 참고용 플랫폼
+    * [openMMlab](https://platform.openmmlab.com/home/)
+
+
 ## Human Pose Estimation Models
 
 Human Motion Understanding (HMU) is a research project that aims to understand human motion.
@@ -73,10 +78,14 @@ Human Motion Understanding (HMU) is a research project that aims to understand h
 
 #### **-C. Zheng et al. Deep Learning-Based Human Pose Estimation: A Survey**<br>
 ### 9. Multi-HPE<br>
+* 여러 사람의 pose를 예측하는 모델
+* Bottom-up: 사람의 keypoint를 먼저 예측한 후 그 keypoint를 이어주는 방식
+* Topdown: 사람을 bounding box로 crop하고 그 사람의 keypoint를 예측하는 방식
 ![](figures/Cap_2022-07-26_22-39-24-096.jpg)<br><br>
 
 #### **K. Li et al . Pose Recognition with Cascade Transformers. CVPR**<br>
 ### 10. PRTR<br>
+* Transformers 모델 기반의 Multi-Pose Recognition 모델
 ![](figures\Cap_2022-07-26_22-39-29-277.jpg)<br><br>
 ![](figures\Cap_2022-07-26_22-39-36-747.jpg)<br><br>
 
@@ -122,6 +131,7 @@ Human Motion Understanding (HMU) is a research project that aims to understand h
 </font>
 
 ### TailorNet
+* https://virtualhumans.mpi-inf.mpg.de/tailornet/
 ![](figures/Cap_2022-07-26_22-05-07-622.jpg)<br><br>
 ![](figures/Cap_2022-07-26_22-05-18-758.jpg)<br><br>
 
@@ -130,6 +140,7 @@ Human Motion Understanding (HMU) is a research project that aims to understand h
 </font>
 
 ### Pose2Pose
+* http://www.norawillett.com/pose2pose/index.html
 ![](figures/Cap_2022-07-26_22-05-25-150.jpg)<br><br>
 
 <font size = 4>
@@ -137,6 +148,7 @@ Human Motion Understanding (HMU) is a research project that aims to understand h
 </font>
 
 ### Photo Wake-Up ★★
+* https://grail.cs.washington.edu/projects/wakeup/
 ![](figures/Cap_2022-07-26_22-05-34-509.jpg)<br><br>
 
 <font size = 4>
@@ -151,6 +163,7 @@ Human Motion Understanding (HMU) is a research project that aims to understand h
 </font>
 
 ### Dancing to Music
+* https://github.com/NVlabs/Dancing2Music
 ![](figures/Cap_2022-07-26_22-05-51-034.jpg)<br><br>
 ![](figures/Cap_2022-07-26_22-05-57-431.jpg)<br><br>
 <br><br>
@@ -160,6 +173,8 @@ Human Motion Understanding (HMU) is a research project that aims to understand h
 </font>
 
 ### Structured Prediction Helps 3D Human Motion Modelling
+
+* https://ait.ethz.ch/projects/2019/spl/
 ![](figures/Cap_2022-07-26_22-06-03-038.jpg)<br><br>
 ![](figures/Cap_2022-07-26_22-06-16-483.jpg)<br><br>
 <br><br>
@@ -169,6 +184,8 @@ Human Motion Understanding (HMU) is a research project that aims to understand h
 </font>
 
 ### Learning Individual Styles of Conversational Gesture
+* https://chahuja.com/pats
+* http://people.eecs.berkeley.edu/~shiry/speech2gesture/
 ![](figures/Cap_2022-07-26_22-06-26-559.jpg)<br><br>
 
 <font size = 4>
@@ -184,5 +201,7 @@ Human Motion Understanding (HMU) is a research project that aims to understand h
 13. R. Li et al. AI Choreographer: Music Conditioned 3D Dance Generation with AIST++. ICCV 
 
 ### AI Choreographer
+* https://google.github.io/aistplusplus_dataset/
+* https://google.github.io/aichoreographer/
 ![](figures/Cap_2022-07-26_22-06-52-934.jpg)<br><br>
 <br><br>
