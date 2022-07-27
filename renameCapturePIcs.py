@@ -1,6 +1,4 @@
 import os
-import sys
-
 import argparse
 
 argparse = argparse.ArgumentParser(description = 'renameCapturePics')
