@@ -1,2 +1,6 @@
 results/
 IMavatar1/data/
+IMavatar1/code/flame/female_model.pkl
+IMavatar1/code/flame/generic_model.pkl
+IMavatar1/code/flame/FLAME2020.zip
+IMavatar1/code/flame/male_model.pkl
