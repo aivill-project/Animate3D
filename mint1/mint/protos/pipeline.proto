@@ -1,0 +1,33 @@
+/*Copyright 2021 Google LLC
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+    https://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+==============================================================================*/
+syntax = "proto2";
+
+package mint.protos;
+
+import "mint/protos/dataset.proto";
+import "mint/protos/eval.proto";
+import "mint/protos/model.proto";
+import "mint/protos/train.proto";
+
+// Convenience message for configuring a training and eval pipeline. Allows all
+// of the pipeline parameters to be configured from one file.
+message TrainEvalPipelineConfig {
+  optional MultiModalModel multi_modal_model = 1;
+  optional TrainConfig train_config = 2;
+  optional Dataset train_dataset = 3;
+  optional EvalConfig eval_config = 4;
+  optional Dataset eval_dataset = 5;
+  extensions 1000 to max;
+}
