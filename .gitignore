@@ -2,3 +2,4 @@ results/
 IMavatar1/code/flame/
 IMavatar1/data/datasets/
 IMavatar1/data/experiments/
+*.pyc

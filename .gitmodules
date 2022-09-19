@@ -1,3 +1,6 @@
 [submodule "PRTR"]
 	path = PRTR
 	url = https://github.com/mlpc-ucsd/PRTR
+[submodule "2D-Motion-Retargeting"]
+	path = 2D-Motion-Retargeting
+	url = https://github.com/ChrisWu1997/2D-Motion-Retargeting
