@@ -4,3 +4,6 @@
 [submodule "2D-Motion-Retargeting"]
 	path = 2D-Motion-Retargeting
 	url = https://github.com/ChrisWu1997/2D-Motion-Retargeting
+[submodule "MotioNet"]
+	path = MotioNet
+	url = https://github.com/Shimingyi/MotioNet.git
